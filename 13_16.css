@@ -1,0 +1,17 @@
+/* .parent .child .title{
+   background-color: red; 
+}
+.parent .title{
+    background-color:blue ; 
+}
+div p,.title{
+    background-color:green;   
+} */
+p{
+    background-color: brown;
+    width:400px;
+    height: 50px;
+    margin: 20px;
+    text-indent:20px;
+    overflow: hidden;
+}

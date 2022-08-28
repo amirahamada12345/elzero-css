@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.normal {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgba(122, 114, 114, 0.867);
+    color: black;
+  }
+  .one1 {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgba(122, 114, 114 ,0.1);
+    color: black;
+  }
+  .two2 {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px; 
+    opacity: 0.1;
+    background-color: rgba(122, 114, 114);
+    color: black;
+  }
+
+.parent{
+    width: 800px;
+
+    background-color: #eee;
+    margin: auto;
+    text-align: center;
+    /* overflow: hidden; */
+
+  }
+
+   .parent div {
+   background-color: rgb(161, 153, 153);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  }
+
+  .full-width{
+    padding: 15px 0;
+    margin-bottom: 15px;
+   
+    margin-left: 15px;
+
+    width: calc((100% - 30px) / 1);
+    float: left;
+  }
+  .clear1 {
+    clear: both;
+  }
+   .one{
+    padding: 15px 0;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  width: calc((100% - 60px) / 3);
+  float: left;
+    
+  }
+  .clear2{
+    clear: both;
+  }
+  .two{
+    padding: 15px 0;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: calc((100% - 45px) / 2);
+    float: left;
+  }
+  .clear3{
+    clear: both;
+  }
+  .four{
+ 
+   
+    padding: 15px 0;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  width: calc((100% - 75px) / 4);
+  float: left;
+
+  }
+  .clear4{
+    clear: both;
+  } 

@@ -1,0 +1,61 @@
+/* p{
+    text-shadow:2px 2px 0px red,2px 2px 1px blue ;
+} */
+/* .one{
+    text-transform: uppercase;
+
+text-align: center;
+font-size:larger;
+font-weight: 600;
+font-family: sans-serif;
+}
+.two{
+    text-transform: capitalize;
+    text-align: center;
+    font-size:larger;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.three{
+    text-transform: lowercase;
+    text-align: center;
+    font-size:larger;
+    font-weight: 200;
+    font-family: sans-serif;
+} */
+/* div{
+    width: 400px;
+    margin: auto;
+    background-color: rgb(238, 223, 223);
+   
+
+
+} */
+/* .d1{
+    width: 400px; 
+    margin-top: 20px;
+}
+.d2{
+    width: 400px; 
+    margin-top: 20px; 
+   
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+} */
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+   background-color: rgb(69, 216, 216);
+   width: 400px;
+   padding: 100px;
+   margin:40%  ;
+   
+
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}

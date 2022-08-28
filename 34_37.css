@@ -1,0 +1,56 @@
+body{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div{
+    margin: auto;
+    width: 652px;
+    background-color: rgb(228, 222, 222);
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+  .user{
+    background-color: rgb(235, 217, 217);
+    width: 113px;
+    height: 34.5px;
+    float: left;
+    text-align: center;
+    margin: 18px;
+    font-size: 17px;
+}
+
+
+div::before{
+     content: " ";
+    position: absolute;
+    width: 13px;
+    height: 100%;
+    right: -10;
+    top: 0;
+    margin-left: -28px;
+    margin-top: 0px;
+    background-color: crimson;
+
+
+}
+div::after{
+content: " ";
+position: absolute;
+width: 0;
+height: 0;
+top:50%;
+margin-left: -485px;
+margin-top: -10px;
+border-width: 10px;
+border-style: solid;
+ border-color: transparent crimson transparent transparent;
+}
+
+

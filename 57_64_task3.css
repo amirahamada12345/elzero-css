@@ -1,0 +1,29 @@
+.grid {
+    /* background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+  grid-template-columns: 10px 70px 70px  10px   ;
+  gap: 10px;
+  grid-template-rows:85px  15px;
+  justify-content: center;
+  text-align: center; */
+  display: grid;
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    grid-template-columns: 10px auto auto 10px;
+    grid-template-rows: 92% 7%;
+    gap: 2%;
+
+  }
+  .grid div{
+    background-color: rgb(104, 101, 101);
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+  }

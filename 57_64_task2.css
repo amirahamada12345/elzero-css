@@ -1,0 +1,141 @@
+/* body{
+    margin:0;
+    padding:0;
+}
+
+
+.layout{
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   
+    grid-template-rows: 110px 1fr 110px;
+    grid-template-areas:"header header header header header" "section section section aside aside" "footer footer footer footer footer";
+    background-color: rgb(218, 213, 213);
+    justify-content:center;
+}
+header{
+    grid-area: header;
+    background-color: rgb(0, 204, 255);
+    color: white;
+  
+}
+
+section{
+    grid-area: section;
+    background-color:orangered;
+    color: white;
+    height: 80vh;
+}
+
+aside{
+    grid-area: aside;
+    background-color: rgb(46, 87, 97);
+    color: white;
+    height: 80vh;
+}
+footer{
+    grid-area: footer;
+    background-color: rgba(6, 134, 102, 0.945);
+    color: white;
+}
+.header::after{
+    content: "header";
+  
+
+}
+
+.section::after{
+    content: "section";
+}
+
+
+.aside::after{
+    content: "aside";
+}
+.footer::after{
+    content: "footer";
+
+} */
+
+
+.layout {
+    background-color: #eee;
+    width: 120vh;
+    height: 1000px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 110px 1fr 110px;
+    grid-template-areas: "head head head head head head head head head head"
+        "sec sec sec sec sec sec sec side side side"
+        "foot foot foot foot foot foot foot foot foot foot";
+
+}
+
+header {
+    grid-area: head;
+    display: grid;
+    background-color: #03a9f4;
+}
+
+header::before {
+    display: flex;
+    content: "Haeder";
+    position: relative;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    left: 20px;
+}
+
+section {
+    grid-area: sec;
+    background-color: #ff5722;
+    display: grid;
+    grid-template-columns: 4fr;
+}
+
+section::before {
+    display: flex;
+    content: "Section";
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+    top: 20px;
+}
+
+aside {
+    grid-area: side;
+    background-color: #607d8b;
+    display: grid;
+
+}
+
+aside::before {
+    display: flex;
+    content: "Aside";
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+    top: 20px;
+}
+
+footer {
+    grid-area: foot;
+    display: grid;
+    background-color: #009688;
+}
+
+footer::before {
+    display: flex;
+    content: "Footer";
+    position: relative;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+}
+

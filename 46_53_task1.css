@@ -1,0 +1,18 @@
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(245, 231, 231);
+    margin: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content:center;
+
+   align-items: center;
+   box-shadow: 8px 0 0 orangered, 8px 0 0 0 rgb(148, 226, 231) inset;
+   color: orangered;
+
+}

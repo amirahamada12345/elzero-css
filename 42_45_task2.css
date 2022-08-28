@@ -1,0 +1,23 @@
+
+
+.div-1 {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    background-color: #EEE !important;
+    color: black !important;
+    font-size: 20px !important;
+    border: 0px !important;
+} 
+
+.div-1 .span-3 {
+    visibility: hidden;
+}
+
+.div-1::after {
+    content: attr(data-text);
+    font-weight: bold;
+    position: relative;
+    right: 37px;
+    text-align: center;
+}

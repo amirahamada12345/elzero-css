@@ -1,0 +1,43 @@
+/* div{
+    text-align:center ;
+ 
+    border: 2px solid goldenrod;
+    padding: 10px;
+    margin: 20px 10px;
+}
+div p{
+    text-align: inherit;
+  
+    border: inherit;
+    padding: inherit;
+} */
+html{
+    font-size: 20px;
+}
+   p{
+    padding: 30px;
+    margin: 40px;
+    font-size: 70px;
+}
+ .p1{
+    font-weight: 300px;
+    font-family: 'Cairo', sans-serif;
+font-family: 'Jomhuria', cursive;
+font-family: 'Open Sans', sans-serif;
+ font-size: 2.5rem;
+}
+
+.p2{
+font-weight: 700px;
+font-family: 'Cairo', sans-serif;
+font-family: 'Jomhuria', cursive;
+   font-size: 2rem;
+}
+.p3{
+    font-weight: 400px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Jomhuria', cursive;
+    font-size: 1.5rem;
+} 
+
+

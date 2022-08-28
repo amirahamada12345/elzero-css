@@ -1,0 +1,53 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin:  auto;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+
+ font-weight: bold;
+ color: white;
+ grid-template-rows: 60px;
+ position: relative;
+ gap: 20px;
+
+  }
+ 
+
+  .grid div {
+    display: grid;
+    background-color: #607d8b;
+}
+  .grid div::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "Elemnt";
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+}
+  /* .child11{
+    background-color: rgb(14, 139, 139);
+    margin: -12px;
+    margin-right: 97px;
+    height: 33px;
+    text-align: center;
+       justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+  .child12{
+    background-color: rgb(14, 139, 139);
+    margin: -12px;
+    margin-right: 97px;
+    height: 303px;
+    text-align: center;
+    margin-top: 50px;
+    
+    position: absolute;
+    
+  } */
